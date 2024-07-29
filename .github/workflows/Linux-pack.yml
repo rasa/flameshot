@@ -20,7 +20,7 @@ env:
   # dockerfiles, see https://github.com/flameshot-org/flameshot-dockerfiles
   # docker images, see https://hub.docker.com/r/flameshotorg/ci-building-images
   # flameshotorg/ci-building-images or packpack/packpack
-  DOCKER_REPO: flameshotorg/ci-building-images
+  DOCKER_REPO: quay.io
   PACKPACK_REPO: flameshot-org/packpack
   # available upload services: wetransfer.com, file.io, 0x0.st
   UPLOAD_SERVICE: wetransfer.com
