@@ -70,6 +70,24 @@ jobs:
               arch: armhf
             }
           - {
+              name: debian-12,
+              os: debian,
+              symbol: bookworm,
+              arch: amd64
+            }
+          - {
+              name: debian-12,
+              os: debian,
+              symbol: bookworm,
+              arch: arm64
+            }
+          - {
+              name: debian-12,
+              os: debian,
+              symbol: bookworm,
+              arch: armhf
+            }
+          - {
               name: ubuntu-20.04,
               os: ubuntu,
               symbol: focal,
@@ -227,21 +245,21 @@ jobs:
       matrix:
         dist:
           - {
-              name: fedora-35,
+              name: fedora-39,
               os: fedora,
-              symbol: 35,
+              symbol: 39,
               arch: x86_64
             }
           - {
-              name: fedora-36,
+              name: fedora-40,
               os: fedora,
-              symbol: 36,
+              symbol: 40,
               arch: x86_64
             }
           - {
-              name: opensuse-leap-15.2,
+              name: opensuse-leap-15.6,
               os: opensuse-leap,
-              symbol: 15.2,
+              symbol: 15.6,
               arch: x86_64
             }
     steps:
